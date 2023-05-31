@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasty food</title>
+    <!-- font awesome cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+   <!--css file-->
+   <link rel="stylesheet" href="style.css">
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+ />
+</head>
+<body>
+<!--header section start-->
+<header>
+    <div href="#" class="logo"> <i class="fa-solid fa-utensils"></i>Foodkit </div>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+     
+    </nav>
+    <div class="dropdown">
+        <button class="dropbtn" id="restaurant-link"><i class="fa-solid fa-caret-down"></i>Restaurants</button>
+        <div id="restaurant-dropdown" class="dropdown-content">
+            <a href="burger.html">Burger King</a>
+            <a href="#">Piza Family</a>
+            <a href="#">Mixue</a>
+            <a href="#">Foody House</a>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fa-solid fa-bars" id="menu-bars"></i>
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <a href="#"><i class="fa-solid fa-heart"></i></a>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</header>
+
+        
+
+
+<!--header section end-->
+<!--search form-->
+<form action="" id="search-form">
+ <input type="search" placeholder="search here..." name="" id="search-box">
+ <label for="search-box" class="fa-solid fa-magnifying-glass "></label>
+ <i class="fa-solid fa-x" id="close"></i>
+</form>
+
+<!--home section starts-->
+<section class="home" id="home">
+    <div class="home-slider swiper mySwiper">
+        <div class=" swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Mixue </span>
+                    <h3>Bubble Tea</h3>
+                    <p>Bubble tea is the most popular drink from mixue shop.</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="img/bubble.jpg" alt="">
+                </div>
+            </div>
+
+            <div class=" swiper-slide slide">
+                <div class="content">
+                    <span>Five Star</span>
+                    <h3>Fried Chicken</h3>
+                    <p>This fried chicken is the most popular menu
+                        from Five Star</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="img/fried.jpg" alt="">
+                </div>
+            </div>
+
+            <div class=" swiper-slide slide">
+                <div class="content">
+                    <span>Piza Family</span>
+                    <h3>Hot Piza</h3>
+                    <p>This piza is the most popular fast food from piza family.</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="img/piza.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Foody House</span>
+                    <h3>Rice Noodle</h3>
+                    <p>This noodle is the most popular Rice noodle from Foody House.</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="img/noodle.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!--home section end-->
+<!--dishes section start-->
+
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">Our dishes</h3>
+    <h1 class="heading">Popular dishes</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+            <img src="img/dishes-1.jpg" alt="" class="dishes-img">
+            <h3>hamburger</h3>
+            <h2>(Burger King)</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span>2500mmk</span>
+                <a href="#" class="btn" >add to card</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+            <img src="img/dishes-2.jpg" alt="" class="dishes-img">
+            <h3>Kimchi Fried rice</h3>
+            <h2>(Foody House)</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span>3000mmk</span>
+                <a href="#" class="btn" >add to card</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+            <img src="img/mixue1.jpg" alt="" class="dishes-img">
+            <h3>Strawberry drink</h3>
+            <h2>(Mixue)</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span>2500mmk</span>
+                <a href="#" class="btn" >add to card</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+            <img src="img/soup.jpg" alt="" class="dishes-img">
+            <h3>Chicken Soup</h3>
+            <h2>(Foody House)</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span>3000mmk</span>
+                <a href="#" class="btn" >add to card</a>
+        </div>  
+        <div class="box">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+            <img src="img/miniburger.jpg" alt="" class="dishes-img">
+            <h3>Mini Burger - 1set</h3>
+            <h2>(Burger King)</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span>3000mmk</span>
+                <a href="#" class="btn" >add to card</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-eye"></a>
+            <img src="img/piza.jpg" alt="" class="dishes-img">
+            <h3>Piza</h3>
+            <h2>(Piza Family)</h2>
+            
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <span>3000mmk</span>
+                <a href="#" class="btn" >add to card</a>
+        </div>
+        
+    </div>
+</section>
+<!--dishes section start-->
+<!--about section starts-->
+<section class="about" id="about">
+    <h3 class="sub-heading">About us </h3>
+    <h1 class="heading">Why choose us?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="background.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>We are providing the best and fastest services</h3>
+            <p>Our foodkit  is an online food delivery platform that was founded in 2023 by NBwi Sut Awng ,Gun Tang, Mary Hkawng Naw, 
+                and Dau Nyoi. Our company is headquartered in Myitkyina operates in more than 38 quarters in myitkyina.</p>
+                  
+                     <div class="icons-container">
+                        <div class="icons">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <span>delivery </span>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>online Payment </span>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>8:00AM to 6:00PM (Sunday off) </span>
+                        </div>
+                     </div>
+                     <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+</section>
+<!--about section ends-->
+
+<!--menu starts-->
+<section class="menu" id="menu">
+    <h3 class="sub-heading">Our menu</h3>
+    <h1 class="heading">Today's speciality</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="img/piza.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Piza</h3>
+                    <p>Piza Family</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">10000mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/bubble.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Bubble Tea</h3>
+                    <p>Mixue</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">2500mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/malar.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Malar Shan Kaw</h3>
+                    <p>Foody House</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">10000mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/mohinca.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Mohinca</h3>
+                    <p>Foody House</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">10000mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/burgerking1.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Chicken Sandwish</h3>
+                    <p>Burger King</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">2500mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/burgerking3.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Cheesy Tots</h3>
+                    <p>Burger King</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">3000mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/burgerking4.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Chicken Tender</h3>
+                    <p>Burger King</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">3000mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/dumpling.jpg" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Pork Dumpling</h3>
+                    <p>Foody House</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">2500mmk</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="img/burgerkings3.png" alt="">
+                <a href="#" class="fa-solid fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h3>Beef Hamburger</h3>
+                    <p>Burger King</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">3000mmk</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--menu ends-->
+<!--review section starts-->
+<section class="review" id="review">
+    <h3 class="sub-heading">customer's review</h3>
+    <h1 class="heading">What they say</h1>
+<div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+            <i class="fa-solid fa-quote-right"></i>
+        <div class="user">
+            <img src="img/sut.jpg" alt="">
+            <div class="user-info">
+                <h3>SKB</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+
+    </div>
+<p>အရသာကောင်း</p>
+</div>
+<div class="swiper-slide slide">
+    <i class="fa-solid fa-quote-right"></i>
+<div class="user">
+    <img src="img/gyung.jpg" alt="">
+    <div class="user-info">
+        <h3>Gyung Nyoi</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+</div>
+
+</div>
+<p>This website is very useful and Love it!</p>
+</div>
+<div class="swiper-slide slide">
+    <i class="fa-solid fa-quote-right"></i>
+<div class="user">
+    <img src="img/mary.jpg" alt="">
+    <div class="user-info">
+        <h3>Mary Awng</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+</div>
+
+</div>
+<p>Grai akyu rawng ai yaw ndai website.Delivery sa ya ai ni ma aten hkrak sa ya ai.Grau na awng dang wa u ga.</p>
+</div>
+
+<div class="swiper-slide slide">
+    <i class="fa-solid fa-quote-right"></i>
+<div class="user">
+    <img src="img/seng.jpg" alt="">
+    <div class="user-info">
+        <h3>Seng Myu Ring</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+</div>
+
+</div>
+<p>I love this website and developer!</p>
+</div>
+
+<div class="swiper-slide slide">
+    <i class="fa-solid fa-quote-right"></i>
+<div class="user">
+    <img src="img/sutlat.jpg" alt="">
+    <div class="user-info">
+        <h3>Sut Lat Awng</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+</div>
+
+</div>
+<p>Seng law law hte grau na lu matu da yang grau hkrak na kun!</p>
+</div>
+</div>
+</div>
+</section>
+
+<!--review section ends-->
+<!--ordedr section starts-->
+<section class="order" id="order">
+    <h3 class="sub-heading">Order now</h3>
+<h1 class="heading">fast service</h1>
+
+<form action="">
+
+<div class="inputBox">
+    <div class="input">
+        <span>your name</span>
+        <input type="text" placeholder="enter your name">
+    </div>
+    <div class="input">
+        <span>your number</span>
+        <input type="number" placeholder="enter your number">
+    </div>
+</div>
+<div class="inputBox">
+    <div class="input">
+        <span>your order</span>
+        <input type="text" placeholder="enter food name">
+    </div>
+    <div class="input">
+        <span>additional food</span>
+        <input type="test" placeholder="extra with food">
+    </div>
+</div>
+<div class="inputBox">
+    <div class="input">
+        <span>how much</span>
+        <input type="number" placeholder="how many orders">
+    </div>
+    <div class="input">
+        <span>date and time</span>
+        <input type="datetime-local">
+    </div>
+</div>
+<div class="inputBox">
+    <div class="input">
+        <span>your address</span>
+       <textarea name="" palceholder="enter your address" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="input">
+        <span>your message</span>
+       <textarea name="" palceholder="enter your message" id="" cols="30" rows="10"></textarea>
+    </div>
+</div>
+<input type="submit" value="order now" class="btn">
+<a   class="btn" href="payment.html">Payment </a>
+
+</form>
+
+</section>
+<!--ordedr section ends-->
+
+<!--footer section starts-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Kyunpintar</a>
+            <a href="#">Rambo</a>
+            <a href="#">Tatkone</a>
+            <a href="#">North Shan</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Dishes</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Review</a>
+            <a href="#">Order</a>
+        </div>
+        <div class="box">
+            <h3>Contace Info</h3>
+            <a href="#">09-788470662</a>
+            <a href="#">09-447692363</a>
+            <a href="#">nbwisutaung@gmail.com</a>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+    <div class="credit">copyright @ 2023 by <span>Mr. NBwi Designer</span></div>
+
+</section>
+<!--footer section ends-->
+
+<!--loader part-->
+
+<div class="loader-container">
+    <img src="img/load.gif" alt="">
+</div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--javascript-->
+    <script src="script.js"></script>
+</body>
+</html>
